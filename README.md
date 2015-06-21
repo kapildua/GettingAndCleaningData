@@ -14,13 +14,13 @@ Here are the data for the project: [here](https://d396qusza40orc.cloudfront.net/
 
 ## How does run_analysis.R work
 
-	1.	Downloads the data from provided website link if not already downloaded.
-	2.	Unzips the file.
-	3.	Reads the features and activity labels from the unzipped file.
-	4.	Read features list and extract a column list of terms which are means or standard deviation only.
-	5.	Reads data from training and test sets.
-	6.	Creates a subset of training and test sets to extract only mean and standard deviation values.
-	7.	Merge training and test sets.
-	8.	Create another dataset with the average of each variable for each activity and each subject.
-	9.	Assign descriptive names to activities in dataset.
-	10.	Create a file from dataset.
+1. Downloads the data from provided website link if not already downloaded.
+2. Unzips the file.
+3. Reads the features and activity labels from the unzipped file.
+4. Read features list and extract a column list of terms which are means or standard deviation only.
+5. Reads data from training and test sets.
+6. Creates a subset of training and test sets to extract only mean and standard deviation values.
+7. Merge training and test sets.
+8. Create another dataset with the average of each variable for each activity and each subject.
+9. Assign descriptive names to activities in dataset.
+10. Create a file from dataset.
