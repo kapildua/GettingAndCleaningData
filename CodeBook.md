@@ -32,10 +32,10 @@ Here are the data for the project: [here](https://d396qusza40orc.cloudfront.net/
 * Features are normalized and bounded within [-1,1].
 * Each feature vector is a row on the text file.
 
-## Tidy Data
+# Tidy Data
 Tidy data is created on execution of run_analysis.R code file. Tidy data is obtained by merging training and test sets and extracing only mean and standard deviation values from the merged dataset. Eventually create another dataset with the average of each variable for each activity and subject.
 
-# Variables
+## Variables
 
 The tidy data set contains :
 
